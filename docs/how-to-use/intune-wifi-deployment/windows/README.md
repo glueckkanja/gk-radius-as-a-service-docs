@@ -17,7 +17,7 @@ The following list and screenshot show you all necessary configurations:
 5. As **Profile type** select **Wi-Fi import**
 6. Finally enter a **Connection name** and upload the Wi-Fi XML
 
-![](../../../.gitbook/assets/image%20%2814%29.png)
+![](../../../.gitbook/assets/image%20%2815%29.png)
 
 ### User Certificates
 
@@ -35,10 +35,6 @@ The following lists and screenshot show you all necessary configurations:
 4. As **Platform** select **Windows 8.1 and later**
 5. As **Profile type** select **Trusted certificate**
 6. Upload the following certificate.
-
-{% file src="../../../.gitbook/assets/radius.glueckkanja.net.cer" caption="radius.glueckkanja.net - Certificate\(17.03.2017 - 17.03.2020\)" %}
-
-Because this certificate will expire in a few days, repeat step 3 - 6 with the following certificate and your clients will not experience any disruption on **7th March 2020** during the change.
 
 {% file src="../../../.gitbook/assets/radius.glueckkanja.net \(1\).cer" caption="radius.glueckkanja.net - Certificate\(21.01.2020 - 04.21.2022\)" %}
 

@@ -15,5 +15,5 @@ The following list and screenshot show you all necessary configurations:
 Do not configure the **Server Trust** settings
 {% endhint %}
 
-![](../../.gitbook/assets/image%20%288%29.png)
+![](../../.gitbook/assets/image%20%289%29.png)
 

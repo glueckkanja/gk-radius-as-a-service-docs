@@ -52,7 +52,7 @@ The list is for the client to take the correct certificate for the authenticatio
 
 You can find the thumbprint in the certificate details.
 
-![](../../../.gitbook/assets/image%20%2813%29.png)
+![](../../../.gitbook/assets/image%20%2814%29.png)
 
 ### WiFi XML Content 
 

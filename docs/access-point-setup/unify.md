@@ -8,7 +8,7 @@ Do the following steps and configurations to create a RADIUS profile:
 2. Click **Create a new RADIUS Profile**
 3. Fill the forms with all your information
 
-![](../.gitbook/assets/image%20%2810%29.png)
+![](../.gitbook/assets/image%20%2811%29.png)
 
 ### SSID
 
