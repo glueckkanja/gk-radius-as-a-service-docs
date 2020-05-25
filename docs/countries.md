@@ -6,6 +6,7 @@ Our service is available in the following data centers:
 | :--- |
 | Canada |
 | England |
+| Germany |
 | India |
 | Netherlands |
 | Singapore |
