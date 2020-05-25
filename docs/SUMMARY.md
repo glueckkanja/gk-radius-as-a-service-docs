@@ -2,7 +2,7 @@
 
 * [Welcome](README.md)
 * [Introduction](introduction.md)
-* [Countries](countries.md)
+* [Data Center Locations](countries.md)
 
 ## How to Use
 
