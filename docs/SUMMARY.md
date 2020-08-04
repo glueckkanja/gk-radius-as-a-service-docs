@@ -11,6 +11,9 @@
     * [Wi-Fi XML](how-to-use/intune-wifi-deployment/windows/wifi-xml.md)
   * [Android](how-to-use/intune-wifi-deployment/android.md)
   * [Apple Devices](how-to-use/intune-wifi-deployment/apple-devices.md)
+
+---
+
 * [Access Point Setup](access-point-setup/README.md)
   * [Unify](access-point-setup/unify.md)
 * [Troubleshooting](trubleshooting.md)
