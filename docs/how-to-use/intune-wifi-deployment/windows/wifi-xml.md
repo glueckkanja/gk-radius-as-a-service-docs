@@ -21,6 +21,7 @@ You have to customize **&lt;name&gt;** and **&lt;hex&gt;**  on your own. The **&
         <hex>5265616C6D4A6F696E2057694669</hex>
         <name>RealmJoin WiFi</name>
     </SSID>
+		<nonBroadcast>true</nonBroadcast>
 </SSIDConfig>
 ```
 
@@ -65,6 +66,7 @@ You can find the thumbprint in the certificate details.
             <hex>5265616C6D4A6F696E2057694669</hex>
             <name>RealmJoin WiFi</name>
         </SSID>
+		    <nonBroadcast>true</nonBroadcast>
     </SSIDConfig>
     <connectionType>ESS</connectionType>
     <connectionMode>auto</connectionMode>
