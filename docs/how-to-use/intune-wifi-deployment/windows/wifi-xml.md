@@ -33,7 +33,6 @@ The trusted root information below are the thumbprints of the certificate which 
 <ServerValidation>
     <DisableUserPromptForServerValidation>true</DisableUserPromptForServerValidation>
     <ServerNames></ServerNames>
-    <TrustedRootCA>a3 4b c1 4d 19 04 f7 ee 26 6f 79 c5 5f 0d e4 ef ff b4 b5 3d </TrustedRootCA>
     <TrustedRootCA>ba b7 72 b8 7a b3 4b 21 a5 97 8d 01 10 00 b1 f9 21 74 b5 66 </TrustedRootCA>
 </ServerValidation>
 ```
@@ -103,7 +102,6 @@ You can find the thumbprint in the certificate details.
                                     <ServerValidation>
                                         <DisableUserPromptForServerValidation>true</DisableUserPromptForServerValidation>
                                         <ServerNames></ServerNames>
-                                        <TrustedRootCA>a3 4b c1 4d 19 04 f7 ee 26 6f 79 c5 5f 0d e4 ef ff b4 b5 3d </TrustedRootCA>
                                         <TrustedRootCA>ba b7 72 b8 7a b3 4b 21 a5 97 8d 01 10 00 b1 f9 21 74 b5 66 </TrustedRootCA>
                                     </ServerValidation>
                                     <DifferentUsername>false</DifferentUsername>
