@@ -27,7 +27,7 @@ You have to customize **&lt;name&gt;** and **&lt;hex&gt;**  on your own. The **&
 
 #### Server Validation
 
-The trusted root information below are the thumbprints of the certificate which the clients get's presented from our end. It is needed that the client can verify the correct authentication server. 
+The trusted root information below is the thumbprint of the certificate which the clients get's presented from the radius server. It is needed that the client can verify the correct authentication server.
 
 ```text
 <ServerValidation>
