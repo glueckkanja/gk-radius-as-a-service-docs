@@ -36,7 +36,7 @@ The following lists and screenshot show you all necessary configurations:
 5. As **Profile type** select **Trusted certificate**
 6. Upload the following certificate.
 
-{% file src="../../../.gitbook/assets/radius.glueckkanja.net \(1\).cer" caption="radius.glueckkanja.net - Certificate\(21.01.2020 - 04.21.2022\)" %}
+{% file src="../../../.gitbook/assets/radius.glueckkanja.net \(3\).cer" caption="radius.glueckkanja.net - Certificate\(21.01.2020 - 21.04.2022\)" %}
 
 #### Wi-Fi Profile
 

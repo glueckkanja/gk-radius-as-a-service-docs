@@ -1,8 +1,8 @@
 # Mac
 
-The following list and screenshot show you all necessary configurations:
+#### Before creating the **Wi-Fi** profile, create a **Trusted root certificate** profile as described [**here**](https://glueckkanja.gitbook.io/radius-as-a-service/how-to-use/intune-wifi-deployment/windows#server-certificate). Change your **Platform** accordingly.
 
-Before creating the **Wi-Fi** profile, create a **Trusted root certificate** profile as described [**here**](https://glueckkanja.gitbook.io/radius-as-a-service/how-to-use/intune-wifi-deployment/windows#server-certificate). Change your **Platform** accordingly.
+The following list and screenshot show you all necessary configurations:
 
 1. Log in to your [Azure portal](https://porta.azure.com)
 2. Navigate to **Microsoft Intune\(Endpoint Manager\)** -&gt; **Devices** -&gt; **macOS** -&gt; **Configuration profiles**

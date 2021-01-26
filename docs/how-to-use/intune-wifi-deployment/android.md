@@ -1,8 +1,6 @@
 # Android
 
-Before creating the **Wi-Fi** profile, create a **Trusted root certificate** profile as described [**here**](https://glueckkanja.gitbook.io/radius-as-a-service/how-to-use/intune-wifi-deployment/windows#server-certificate). Change your **Platform** accordingly and use the following certificate because Android requires a special format:
-
-{% file src="../../.gitbook/assets/radius.glueckkanja.net\_der-format.crt" caption="Android - radius.glueckkanja.net \(21.01.2020 - 04.21.2022\)" %}
+Android version 10 and higher does not allow to add a user certificate - which our radius server certificate is - as Certificate Authority. Therefore let the section **Root certificate for server validation** untouched. 
 
 The following list and screenshot show you all necessary configurations:
 
@@ -13,8 +11,7 @@ The following list and screenshot show you all necessary configurations:
 5. As **Profile type** select **Wi-Fi**
 6. Then as **Wi-Fi type** choose **Enterprise**
 7. As **EAP type** choose **EAP - TLS**
-8. Next as **Root certificate for server validation** select your created **Trusted Root** profile
-9. Finally select your certificate profile under **Client Authentication**
+8. Finally select your certificate profile under **Client Authentication**
 
-![](../../.gitbook/assets/2021-01-07-11_16_43-android-enterprise-work-profile-wifi-realmjoin-wifi-microsoft-endpoint-m.png)
+![](../../.gitbook/assets/android-enterprise-eap-tls-settings.png)
 
