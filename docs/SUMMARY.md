@@ -2,23 +2,35 @@
 
 * [Welcome](README.md)
 * [Introduction](introduction.md)
-* [Data Center Locations](countries.md)
 
-## How to Use
+## Portal
 
-* [Intune WiFi Profile](how-to-use/intune-wifi-deployment/README.md)
-  * [Windows](how-to-use/intune-wifi-deployment/windows/README.md)
-    * [Wi-Fi XML](how-to-use/intune-wifi-deployment/windows/wifi-xml.md)
-  * [Android](how-to-use/intune-wifi-deployment/android.md)
-  * [Apple Devices](how-to-use/intune-wifi-deployment/apple-devices.md)
-* [Intune Wired Profile](how-to-use/intune-wired-profile/README.md)
-  * [Windows](how-to-use/intune-wired-profile/windows-1/README.md)
-    * [Wired XML](how-to-use/intune-wired-profile/windows-1/wired-xml.md)
-  * [Mac](how-to-use/intune-wired-profile/mac.md)
+* [Users](portal/users.md)
+* [Server Settings](portal/settings-server.md)
+* [Proxy](portal/settings-proxy.md)
+* [Allowed Certificates](portal/settings-trusted-roots/README.md)
+  * [Trusted Roots](portal/settings-trusted-roots/trusted-roots.md)
+  * [Intune Certificate](portal/settings-trusted-roots/intune-cert.md)
+  * [XML](portal/settings-trusted-roots/xml.md)
+* [Log](portal/log.md)
+
+## Azure
+
+* [Trusted Root](azure/trusted-root.md)
+* [WiFi Profile](azure/wifi-profile/README.md)
+  * [Windows](azure/wifi-profile/windows.md)
+  * [Apple Devices](azure/wifi-profile/apple-devices.md)
+  * [Android](azure/wifi-profile/android.md)
+
+## How to use
+
+* [Access Point Setup](how-to-use/access-point-setup/README.md)
+  * [RadSec available](how-to-use/access-point-setup/radsec-available/README.md)
+    * [MikroTik](how-to-use/access-point-setup/radsec-available/mikrotik.md)
+  * [Proxy needed](how-to-use/access-point-setup/proxy-needed/README.md)
+    * [Unify](how-to-use/access-point-setup/proxy-needed/unify.md)
 
 ---
 
-* [Access Point Setup](access-point-setup/README.md)
-  * [Unify](access-point-setup/unify.md)
 * [Troubleshooting](trubleshooting.md)
 

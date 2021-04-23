@@ -1,19 +1,24 @@
 # Troubleshooting
 
-If you have problems with your internet connection there are two possible reasons:
+If you have problems to authenticate correctly, there are some possible reasons: 
 
-* A wrong certificate or
-* a general problem
+1. Wrong WiFi profile config or not the correct certificate taken by the client 
+2. CA is not enabled in your RADIUS settings
+3. Wrong username or password
 
-### Wrong Certificate
+### 1.
 
-![](.gitbook/assets/image%20%282%29.png)
+![](.gitbook/assets/image%20%2828%29.png)
 
-The configured Wi-Fi profile is assigned with the wrong client certificate profile/thumbprint or no certificate is assigned to the client.
+Check that your client has a certificate to authenticate.
 
-### General Problem
+### 2.
 
-![](.gitbook/assets/image%20%2816%29.png)
+Add your CA as [Trusted Root](azure/trusted-root.md#to-add-a-trusted-root-profile-for-your-clients).
 
-If this error message appears then check your shared secrets. If your secrets are correct and the error message still appears, contact our [Glück & Kanja support team](mailto:support@glueckkanja.com) and submit your **SCEPman instance URL** and your **Wi-Fi configurations**.
+### 3. 
+
+![](.gitbook/assets/image%20%2831%29.png)
+
+Check your [Logs](portal/log.md#logs). There is a detailed description of the error.
 

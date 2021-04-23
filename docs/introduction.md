@@ -1,32 +1,35 @@
 # Introduction
 
-The following documentation will show you how to [onboard and use](access-point-setup/) the RADIUS-as-a-Service \(RADIUSaaS\) managed service to provide cloud based RADIUS authentication with zero on-premises requirements.
-
 ## What is RADIUS
 
-Whenever large companies need network authentication, [RADIUS ](https://tools.ietf.org/html/rfc2865)is the protocol of choice. RADIUS is a AAA protocol which means **authentication, authorization and accounting** and therefore best suited for logging into the Wi-Fi. The protocol was developed by Livingston Enterprises, Inc. in 1991 and is now one of the IETF standards.
+Whenever large companies need network authentication, [RADIUS ](https://tools.ietf.org/html/rfc2865)is the protocol of choice. RADIUS is a AAA protocol which means **authentication, authorization and accounting** and therefore best suited for logging into Wi-Fi, Wired or VPN. The protocol was developed by Livingston Enterprises, Inc. in 1991 and is now one of the IETF standards.
 
-## What is RADIUS-as-a-Service
+## What is RadSec
 
-If you want to host your own RADIUS system you need machines, engineers and depending of your setup a complete Active Directory that your system can match the user which wants to authenticate. You do not need to care about authentication of access points in Wi-Fi or in VPN environments because RADIUSaaS is working as a SaaS-Offering and you only need to add the RADIUSaaS IP-addresses to your ecosystem.
+RADIUS is a good protocol for authentication which uses the UDP transport protocol. Nonetheless will some traffic not encrypted during transport. To avoid this it's possible to use [RadSec](https://tools.ietf.org/html/rfc6614) which is transported over TCP and completely encapsulated within a TLS  tunnel. 
 
 ### Which certificates can be used?
 
-The easiest solution to authenticate your clients is [SCEPman](https://glueckkanja.gitbook.io/scepman/index) which has the benefit to disallow the access of your clients by disabling the device in Azure. You only have to provide us with your instance URL to setup your RADIUS-as-a-Service instances.   
+The easiest solution to authenticate your clients is [SCEPman](https://glueckkanja.gitbook.io/scepman/index) which has the benefit to disallow the access of your clients by disabling the device in Azure.   
   
-But if you want to use your own on-premise PKI or need a migration phase for both worlds, you can also tell us any other Root-CA to verify your clients.
+But if you want to use your own on-premise PKI or need a migration phase for both worlds, you can also enter any other Root-CA to verify your clients.
 
 ### OCSP
 
 To work with revocation of certificates our RADIUS system can also work with OSCP. A certificate revocation list is currently not supported. 
 
-### Authentication Flow 
+## Our Service
 
-The following two illustrations show the authentication flow of RADIUS. The first illustration shows the **RADIUS authentication sequence** and the second illustration shows the **RADIUS connection flow**.
+Each Customer will get their own Website to manage his instance. This portal allows you to [create Users](portal/users.md#add), control your [allowed certificates](portal/settings-trusted-roots/), [add proxies](portal/settings-proxy.md) and view your server [logs](portal/log.md). 
 
-![](.gitbook/assets/radius-authentication-sequence.png)
+Our RADIUS server only allow [RadSec](introduction.md#what-is-radsec) connections. If your WiFi infrastructure don't support RadSec, you can add a [Proxy](portal/settings-proxy.md) to your instance, which will establish a secured tunnel and allows you to use our service with traditional UDP. 
 
-![](.gitbook/assets/radius-connection-flow.png)
+### Guests and IOT devices 
+
+Some devices will not receive any certificates. Rather they are not managed by any policy provider or they simply don't have the opportunity to get one.   
+In cases like this or Guests scenarios you can [add users](portal/users.md#add) to your instances and restrict the access to a specific time frame if needed, which allows you to authenticate printers, TV's or other devices with the same instance.
+
+
 
  
 
