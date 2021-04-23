@@ -21,6 +21,9 @@
   * [Windows](azure/wifi-profile/windows.md)
   * [Apple Devices](azure/wifi-profile/apple-devices.md)
   * [Android](azure/wifi-profile/android.md)
+* [Wired Profile](azure/wired-profile/README.md)
+  * [Windows](azure/wired-profile/windows.md)
+  * [Mac](azure/wired-profile/mac.md)
 
 ## How to use
 
