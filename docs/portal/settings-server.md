@@ -10,7 +10,7 @@ description: >-
 
 Explanation of your server Settings:
 
-* **Server IP Address** The IP Address under which your server is available. These IP Address is only providing [RadSec](../introduction.md#what-is-radsec)!
+* **Server IP Address** The IP Address under which your server is available. These IP Address is only providing [RadSec](../details.md#what-is-radsec)!
 * **UDP Auth Port** The Port for your authentications if UDP is used
 * **UDP Acc Port** The Port for your accounting if UDP is used
 * **Shared Secret** Only needed if you are using UDP Proxies

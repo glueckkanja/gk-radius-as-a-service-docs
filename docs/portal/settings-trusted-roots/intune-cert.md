@@ -1,3 +1,9 @@
+---
+description: >-
+  It's also possible to use the certificate which every Windows 10 get's when
+  joining your Azure Active directory
+---
+
 # Intune Certificate
 
 ### Intune IDs

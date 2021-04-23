@@ -27,11 +27,11 @@ Export your generated certificate:
 /certificate export-certificate mikrotik-client
 ```
 
-Upload the file to your RADIUS instance as [trusted root]().
+Upload the file to your RADIUS instance as [trusted root](../../../portal/settings-trusted-roots/trusted-roots.md#add).
 
 Switch back to your WebFig, add a new RADIUS profile and enter the following information:
 
-* use the IP address from your [Server Settings ]()page
+* use the IP address from your [Server Settings ](../../../portal/settings-server.md)page
 * **Protocol:** radsec
 * **Secret:** radsec
 * **Authentication Port:** 2083

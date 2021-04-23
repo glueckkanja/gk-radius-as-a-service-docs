@@ -9,5 +9,7 @@
 5. As **Profile type** select **Trusted certificate**
 6. Upload the Server [certificate from your portal](../portal/settings-server.md)
 
+![](../.gitbook/assets/image%20%2845%29.png)
+
 
 

@@ -1,8 +1,10 @@
+---
+description: >-
+  This sections handles certificates which are allowed to authenticate. Every
+  certificate from the CA's listed here will get access.
+---
+
 # Trusted Roots
-
-### Trusted Roots
-
-This sections handles certificates which are allowed to authenticate. **Every** certificate from the CA's listed here will get access. 
 
 #### Add 
 

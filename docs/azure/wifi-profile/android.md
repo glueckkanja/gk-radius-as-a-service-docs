@@ -1,6 +1,6 @@
 # Android
 
-During a update from Android 11 the WiFi profile setting is functional broken. If your clients are using Android 10 you can use the following configuration: 
+During a update from Android 11 the WiFi profile setting in Intune is functional broken. If your clients are using Android 10 or lower you can use the following configuration: 
 
 Android version 10 and higher does not allow to add a user certificate - which your radius server certificate is - as Certificate Authority. Therefore let the section **Root certificate for server validation** untouched.
 

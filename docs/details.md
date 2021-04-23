@@ -1,4 +1,4 @@
-# Introduction
+# Details
 
 ## What is RADIUS
 
@@ -22,7 +22,7 @@ To work with revocation of certificates our RADIUS system can also work with OSC
 
 Each Customer will get their own Website to manage his instance. This portal allows you to [create Users](portal/users.md#add), control your [allowed certificates](portal/settings-trusted-roots/), [add proxies](portal/settings-proxy.md) and view your server [logs](portal/log.md). 
 
-Our RADIUS server only allow [RadSec](introduction.md#what-is-radsec) connections. If your WiFi infrastructure don't support RadSec, you can add a [Proxy](portal/settings-proxy.md) to your instance, which will establish a secured tunnel and allows you to use our service with traditional UDP. 
+Our RADIUS server only allow [RadSec](details.md#what-is-radsec) connections. If your WiFi infrastructure don't support RadSec, you can add a [Proxy](portal/settings-proxy.md) to your instance, which will establish a secured tunnel and allows you to use our service with traditional UDP. 
 
 ### Guests and IOT devices 
 

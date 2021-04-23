@@ -1,7 +1,5 @@
 # Windows
 
-
-
 Before creating the **Wired Authentication** profile, create a **Trusted root certificate** profile as described [**here**](../trusted-root.md#to-add-a-trusted-root-profile-for-your-clients). Change your **Platform** accordingly.
 
 To deploy a wired authentication profile get your XML from [here ](../../portal/settings-trusted-roots/xml.md#wired)and create your Intune configuration. The instructions to deploy the profile are copied from [here](https://docs.microsoft.com/en-us/microsoft-365/managed-desktop/get-ready/certs-wifi-lan?view=o365-worldwide#deploy-a-lan-profile):
