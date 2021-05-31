@@ -2,15 +2,15 @@
 
 ## What is RADIUS
 
-Whenever large companies need network authentication, [RADIUS ](https://tools.ietf.org/html/rfc2865)is the protocol of choice. RADIUS is a AAA protocol which means **authentication, authorization and accounting** and therefore best suited for logging into Wi-Fi, Wired or VPN. The protocol was developed by Livingston Enterprises, Inc. in 1991 and is now one of the IETF standards.
+Whenever large companies need network authentication, [RADIUS ](https://tools.ietf.org/html/rfc2865)is the protocol of choice. RADIUS is a AAA protocol which stands for **authentication, authorization and accounting**. It is therefore best suited for controlling access to a network\(Wi-Fi, Wired or VPN\). The protocol was developed by Livingston Enterprises, Inc. in 1991 and is now one of the IETF standards.
 
 ## What is RadSec
 
-RADIUS is a good protocol for authentication which uses the UDP transport protocol. Nonetheless will some traffic not encrypted during transport. To avoid this it's possible to use [RadSec](https://tools.ietf.org/html/rfc6614) which is transported over TCP and completely encapsulated within a TLS  tunnel. 
+RADIUS is a good protocol for authentication which uses the UDP transport protocol. Nonetheless, some traffic will not be encrypted during transport. This can be avoided by using [RadSec](https://tools.ietf.org/html/rfc6614) which is transported over TCP and completely encapsulated within a TLS  tunnel. 
 
 ### Which certificates can be used?
 
-The easiest solution to authenticate your clients is [SCEPman](https://glueckkanja.gitbook.io/scepman/index) which has the benefit to disallow the access of your clients by disabling the device in Azure.   
+The easiest solution to authenticate your clients is [SCEPman](https://glueckkanja.gitbook.io/scepman/index), which only requires a Azure Key Vault for storage and allows you to block access of specific clients by disabling them in Azure.  
   
 But if you want to use your own on-premise PKI or need a migration phase for both worlds, you can also enter any other Root-CA to verify your clients.
 
@@ -20,9 +20,9 @@ To work with revocation of certificates our RADIUS system can also work with OSC
 
 ## Our Service
 
-Each Customer will get their own Website to manage his instance. This portal allows you to [create Users](portal/users.md#add), control your [allowed certificates](portal/settings-trusted-roots/), [add proxies](portal/settings-proxy.md) and view your server [logs](portal/log.md). 
+Each customer has access to their own personal instance through our portal, which can be used for tasks such as [creating Users](portal/users.md#add), changing your [allowed certificates](portal/settings-trusted-roots/), [adding proxies](portal/settings-proxy.md) and viewing your server [logs](portal/log.md). 
 
-Our RADIUS server only allow [RadSec](details.md#what-is-radsec) connections. If your WiFi infrastructure don't support RadSec, you can add a [Proxy](portal/settings-proxy.md) to your instance, which will establish a secured tunnel and allows you to use our service with traditional UDP. 
+Our RADIUS server only allows [RadSec](details.md#what-is-radsec) connections. If your WiFi infrastructure doesn't support RadSec, you can add a [Proxy](portal/settings-proxy.md) to your instance, which will establish a secure tunnel allowing you to use our service with traditional UDP.
 
 ### Guests and IOT devices 
 
