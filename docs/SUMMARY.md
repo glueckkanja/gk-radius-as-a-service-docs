@@ -8,8 +8,8 @@
 * [Users](portal/users.md)
 * [Server Settings](portal/settings-server.md)
 * [Proxy](portal/settings-proxy.md)
-* [Allowed Certificates](portal/settings-trusted-roots/README.md)
-  * [Trusted Roots](portal/settings-trusted-roots/trusted-roots.md)
+* [Authentication Certificates](portal/settings-trusted-roots/README.md)
+  * [Trusted Roots for client authentication](portal/settings-trusted-roots/trusted-roots.md)
   * [Intune Certificate](portal/settings-trusted-roots/intune-cert.md)
   * [XML](portal/settings-trusted-roots/xml.md)
 * [Log](portal/log.md)
@@ -25,13 +25,16 @@
   * [Windows](azure/wired-profile/windows.md)
   * [Mac](azure/wired-profile/mac.md)
 
-## How to use
+## How To <a id="how-to-use"></a>
 
 * [Access Point Setup](how-to-use/access-point-setup/README.md)
   * [RadSec available](how-to-use/access-point-setup/radsec-available/README.md)
     * [MikroTik](how-to-use/access-point-setup/radsec-available/mikrotik.md)
   * [Proxy needed](how-to-use/access-point-setup/proxy-needed/README.md)
     * [Unify](how-to-use/access-point-setup/proxy-needed/unify.md)
+* [How To](how-to-use/how-tow/README.md)
+  * [Get started](how-to-use/how-tow/get-started.md)
+  * [Migrate RaaS v1 - v2](how-to-use/how-tow/migrate-raas-v1-v2.md)
 
 ---
 

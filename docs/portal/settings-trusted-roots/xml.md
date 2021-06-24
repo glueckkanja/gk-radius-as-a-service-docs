@@ -6,13 +6,13 @@ description: Needed for device certificates
 
 ### WiFi
 
-To generate your WiFi XML, enter your **SSID** and click on **Download**.
+To generate your WiFi XML, collapse the **XML** section, enter your **SSID** and click on **Download**.
 
-![](../../.gitbook/assets/image%20%2830%29.png)
+![](../../.gitbook/assets/image%20%2849%29.png)
 
 #### Wired
 
-To generate your Wired XML, click on **Download.** 
+To generate your Wired XML, collapse the **XML** section and click on **Download.** 
 
-![](../../.gitbook/assets/image%20%2829%29.png)
+![](../../.gitbook/assets/image%20%2851%29.png)
 

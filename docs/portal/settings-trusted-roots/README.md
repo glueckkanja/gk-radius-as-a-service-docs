@@ -4,5 +4,5 @@ description: >-
   https://YOURNAME.radius-as-a-service.com/settings/allowed_certificates
 ---
 
-# Allowed Certificates
+# Authentication Certificates
 

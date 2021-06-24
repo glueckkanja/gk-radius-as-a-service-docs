@@ -6,6 +6,16 @@ description: >-
 
 # Intune Certificate
 
+{% hint style="danger" %}
+\*\*\*\*
+
+\*\*\*\*
+
+**This setting is optional. If you don't know what this setting is doing. Don't touch it!!!!**  
+  
+  
+{% endhint %}
+
 ### Intune IDs
 
 {% hint style="danger" %}

@@ -29,6 +29,14 @@ Our RADIUS server only allows [RadSec](details.md#what-is-radsec) connections. I
 Some devices will not receive any certificates. Rather they are not managed by any policy provider or they simply don't have the opportunity to get one.   
 In cases like this or Guests scenarios you can [add users](portal/users.md#add) to your instances and restrict the access to a specific time frame if needed, which allows you to authenticate printers, TV's or other devices with the same instance.
 
+### Get Started
+
+Go trough the steps on the following page to get your clients starting authenticating with RADIUS-as-a-Service!
+
+{% page-ref page="how-to-use/how-tow/get-started.md" %}
+
+
+
 
 
  
