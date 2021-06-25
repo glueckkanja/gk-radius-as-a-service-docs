@@ -1,6 +1,6 @@
 # Apple Devices
 
-The following list and screenshot show you all necessary configurations:
+The following list and screenshot show you all necessary configuration steps:
 
 Before creating the **Wi-Fi** profile, create a **Trusted root certificate** profile as described [**here**](../trusted-root.md#to-add-a-trusted-root-profile-for-your-clients). Change your **Platform** accordingly.
 

@@ -1,17 +1,17 @@
 # MikroTik
 
-Due to establish a valid TLS connection, your client have to know the RADIUS Server certificate and your RADIUS Server needs to know your client certificate. To import your Server certificate, follow these steps: 
+To establish a valid TLS connection, your client has to know the RADIUS Server Certificate and your RADIUS Server needs to know your Client Certificate. To import your Server Certificate, follow these steps: 
 
-* Download your RADIUS [Server certificate](../../../portal/settings-server.md#download)
+* Download your RADIUS [Server Certificate](../../../portal/settings-server.md#download)
 * Import it to your Mikrotik client:
   * Upload the certificate with the files section
-  * switch to your WebFig and enter
+  * Switch to your WebFig and enter
 
 ```text
 /certificate import filename=yournameServercertificate.cer
 ```
 
-If you not already have a certificate for your router generate one as described [here](https://wiki.mikrotik.com/wiki/Manual:Create_Certificates). 
+If you have not already gotten a certificate for your router, generate one as described [here](https://wiki.mikrotik.com/wiki/Manual:Create_Certificates). 
 
 Example: 
 
@@ -27,11 +27,11 @@ Export your generated certificate:
 /certificate export-certificate mikrotik-client
 ```
 
-Upload the file to your RADIUS instance as [a](../../../portal/settings-trusted-roots/trusted-roots.md#add)llowed[ RadSec connection certificate](../../../portal/settings-server.md#add).
+Upload the file to your RADIUS instance as as trusted[ RadSec connection certificate](../../../portal/settings-server.md#add).
 
 Switch back to your WebFig, add a new RADIUS profile and enter the following information:
 
-* use the IP address from your [Server Settings ](../../../portal/settings-server.md)page
+* Use the IP address from your [Server Settings ](../../../portal/settings-server.md)page
 * **Protocol:** radsec
 * **Secret:** radsec
 * **Authentication Port:** 2083

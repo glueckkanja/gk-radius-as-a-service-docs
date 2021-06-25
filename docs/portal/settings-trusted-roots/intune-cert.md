@@ -1,19 +1,13 @@
 ---
 description: >-
-  It's also possible to use the certificate which every Windows 10 get's when
-  joining your Azure Active directory
+  It's also possible to use the certificate which every Windows 10 machine
+  receives from Intune when joining your Azure Active Directory
 ---
 
 # Intune Certificate
 
 {% hint style="danger" %}
-\*\*\*\*
-
-\*\*\*\*
-
-**This setting is optional. If you don't know what this setting is doing. Don't touch it!!!!**  
-  
-  
+### **This setting is optional. In case you are not familiar with Intune Certificates, please do not configure them!**
 {% endhint %}
 
 ### Intune IDs
@@ -22,7 +16,7 @@ description: >-
 Use this setting with care. One of the following IDs **must** exist in the certificate extension 1.2.840.113556.5.14. All other certificates will **rejected**.
 {% endhint %}
 
-To get your Intune Tenant ID follow these steps: 
+To get your Intune Tenant ID, follow these steps: 
 
 * Press **Windows + R** and enter **certlm.msc**
 * Go to your personal certificates. There will be a certificate from one of the following issuers
@@ -36,7 +30,7 @@ To get your Intune Tenant ID follow these steps:
 
 #### Example:
 
-The tenant ID of the following certificate is: **bb4397cb6891c64db17f766487518a6a**
+The Tenant ID of the following certificate is: **bb4397cb6891c64db17f766487518a6a**
 
 ![](../../.gitbook/assets/image%20%2841%29.png)
 

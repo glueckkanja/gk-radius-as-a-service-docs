@@ -3,13 +3,13 @@
 * [Welcome](README.md)
 * [Details](details.md)
 
-## Portal
+## Admin Portal <a id="portal"></a>
 
 * [Users](portal/users.md)
 * [Server Settings](portal/settings-server.md)
 * [Proxy](portal/settings-proxy.md)
 * [Authentication Certificates](portal/settings-trusted-roots/README.md)
-  * [Trusted Roots for client authentication](portal/settings-trusted-roots/trusted-roots.md)
+  * [Trusted Roots for Client Authentication](portal/settings-trusted-roots/trusted-roots.md)
   * [Intune Certificate](portal/settings-trusted-roots/intune-cert.md)
   * [XML](portal/settings-trusted-roots/xml.md)
 * [Log](portal/log.md)
@@ -33,10 +33,11 @@
   * [Proxy needed](how-to-use/access-point-setup/proxy-needed/README.md)
     * [Unify](how-to-use/access-point-setup/proxy-needed/unify.md)
 * [How To](how-to-use/how-tow/README.md)
-  * [Get started](how-to-use/how-tow/get-started.md)
-  * [Migrate RaaS v1 - v2](how-to-use/how-tow/migrate-raas-v1-v2.md)
+  * [Getting Started](how-to-use/how-tow/get-started.md)
+  * [Migrating from RADIUSaaS V1 to V2](how-to-use/how-tow/migrate-raas-v1-v2.md)
 
----
+## Other
 
-* [Troubleshooting](trubleshooting.md)
+* [Troubleshooting](other/trubleshooting.md)
+* [Licensing](other/licensing.md)
 

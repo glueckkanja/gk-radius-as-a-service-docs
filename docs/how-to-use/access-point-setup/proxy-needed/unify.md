@@ -2,7 +2,7 @@
 
 ### RADIUS Profile
 
-Do the following steps and configurations to create a RADIUS profile:
+Please go through the following steps and configurations to create a RADIUS profile:
 
 1. In Unify navigate to **Settings** and select **Profiles**
 2. Click **Create a new RADIUS Profile**

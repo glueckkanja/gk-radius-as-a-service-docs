@@ -1,6 +1,6 @@
 # Access Point Setup
 
-The Pages under this sections explains what you have to do with **IP-Addresses**, **Ports** and **shared secret** which you can see in your [Server Settings](../../portal/settings-server.md). 
+The pages in this section explain how to setup your network access gear to integrate with your RADIUSaaS instance.
 
-More systems will come in the future, but the wizards of your WiFi infrastructure will generally work the same way.
+We will add more vendors and systems in the future. However, we encourage you to go through the setup wizards of your network gear and try to match them to the manuals already provided here, as they typically work all in the same way.
 

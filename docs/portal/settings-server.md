@@ -6,67 +6,84 @@ description: >-
 
 # Server Settings
 
-![](../.gitbook/assets/image%20%2847%29.png)
+![Exemplary Server Settings](../.gitbook/assets/image%20%2847%29.png)
 
-Explanation of your server Settings:
+Explanation of your Server Settings:
 
-* **Server IP Address** The IP Address under which your server is available. These IP Address is only providing [RadSec](../details.md#what-is-radsec)!
-* **UDP Auth Port** The Port for your authentications if UDP is used
-* **UDP Acc Port** The Port for your accounting if UDP is used
-* **Shared Secret** Only needed if you are using UDP Proxies
+* **Server IP Address** The IP Address at which your server is available. This IP Address only speaks [RadSec](../details.md#what-is-radsec)!
+* **UDP Auth Port** The RADIUS authentication port in case UDP is used
+* **UDP Acc Port** The RADIUS accounting port in case UDP is used
+* **Shared Secret** Only required if you use UDP proxies
 
-### Certificates
+## Certificates
 
-On your **Server Settings** page you can see two tables with certificate information. Detailed information in the sections below.  
-The [first table](settings-server.md#server-certificates) shows all available certificates your RADIUS server is able to use. The [second](settings-server.md#radsec-connection-certificates) is for all certificates which are allowed to establish a [RadSec](../details.md#what-is-radsec) connection. Both tables will contain at least one certificate to ensure a normal operation of your systems.  
+On your **Server Settings** page there are two tables with certificate information. Both tables will contain at least one certificate to ensure a normal operation of your systems.  
 
-### Server certificates
+#### List of all available Server Certificates
 
-The certificate which will be created automatically on set up is a self signed end user certificate. It can cause issues on Android\(&gt;9\) because you'll not able to install those certificate as trusted CA. For this purpose you can create your own CA to allow the installation on Android. 
+The [first table](settings-server.md#server-certificates) shows all available certificates your RADIUS server is able to use. 
 
-To create your CA follow these simple steps: 
+#### List of allowed RadSec Connection Certificates
 
-1. Click on **Add**
+The [second table](settings-server.md#radsec-connection-certificates) contains all certificates that are allowed to establish a [RadSec](../details.md#what-is-radsec) connection. 
+
+### Server Certificates
+
+#### Default Certificate
+
+The certificate which will be created automatically during set up of your RADIUSaaS instance is a self-signed end user certificate. 
+
+#### Custom CAs
+
+{% hint style="warning" %}
+A custom CA is required if you are planning to authenticate Android devices.
+{% endhint %}
+
+In same cases, you might be required to create your own custom CA. For example, self-signed certificates can cause issues on Android devices \(version &gt; Android 9\) as Android will not allow to install those certificates as trusted CA. 
+
+To create your custom CA, follow these simple steps: 
+
+1. Click **Add**
 2. Choose **Create your own CA**
 3. Click on **Create**
 
 ![](../.gitbook/assets/image%20%2852%29.png)
 
-After the creation you will see a new certificate available in your table. 
+After the creation, you will see a new certificate available in your table:
 
 ![](../.gitbook/assets/image%20%2846%29.png)
 
-If you don't want the standard certificate which we're creating or want to use your own certificate you can upload up to 2 own certificates.
+In case you do not want to use any of the standard certificates which we are providing you can upload up to two of your own certificates.
 
-To upload your own certificate follow these steps:
+To upload your own certificate, follow these steps:
 
-1. Click on **Add**
+1. Click **Add**
 2. Choose **PEM encoded Certificate**
 3. Copy & Paste your certificate or use the **Browse File** option
 4. Enter the password of your **Private Key** 
-5. Click on **Save**
+5. Click **Save**
 
-#### Activate
+#### Certificate Activation
 
-Certificates expire from time to time. And or you decide to use your own certificate. Therefore, it is important that you can control the certificate that your server is using. The Active column shows you which certificate your server is currently using. To change which certificate your server is using, expand the row of the certificate you want and click **Activate**. 
+As certificates expire from time to time or your preference on which certificates you would like to use change, it is important that you can control the certificate that your server is using. The **Active** column shows you the certificate your server is currently using. To change the certificate your server is using, expand the row of the certificate you would like to choose and click **Activate**. 
 
 #### Download
 
-To download your **Server certificate**  click on **Download** in the corresponding row.
+To download your **Server Certificate**  click **Download** in the corresponding row.
 
 ![](../.gitbook/assets/image%20%2854%29.png)
 
-### RadSec connection Certificates
+### RadSec Connection Certificates
 
-RadSec works also with certificate authentication. Your RADIUS server has to know who is allowed to establish a valid connection. You will always see at least one certificate which is the certificate of your [RadSec proxy](settings-proxy.md)  and so cannot be deleted to ensure that your proxies can start properly and can establish a connection to your instance. 
+RadSec itself works with certificate authentication as well. Hence, your RADIUS server has to know who is allowed to establish a valid RadSec connection. Due to this requirement, you will always see at least one certificate in this table, which is the one related to your [RadSec proxy](settings-proxy.md). To ensure that your proxies are able to start up properly and are able to establish a connection to your instance, you cannot delete it. 
 
 #### Add
 
-To allow new clients to establish a RadSec connection to your instance follow these steps:
+To allow new clients to establish a RadSec connection to your instance, follow these steps:
 
-1. Click on **Add**
+1. Click **Add**
 2. Copy & Paste your certificate or use the **Browse File** option
-3. Click on **Save**
+3. Click **Save**
 
 After this you should see your imported certificate in your table.
 
@@ -74,7 +91,7 @@ After this you should see your imported certificate in your table.
 
 #### Delete
 
-To delete a certificate which should be allowed to connect. Expand the corresponding row, click on **Delete** and confirm your choice. 
+To delete a certificate, expand the corresponding row, click **Delete** and confirm your choice. 
 
 ![](../.gitbook/assets/image%20%2853%29.png)
 

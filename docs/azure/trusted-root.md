@@ -1,6 +1,6 @@
 # Trusted Root
 
-### To add a trusted root profile for your clients 
+### Adding a trusted root profile for your clients 
 
 1. Log in to your [Azure portal](https://porta.azure.com)
 2. Navigate to **Microsoft Intune** and click **Device configuration**

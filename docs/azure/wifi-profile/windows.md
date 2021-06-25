@@ -1,6 +1,6 @@
 # Windows
 
-No matter which certificate type you're deploying, make sure to import your Server certificate as trusted root as described [here](../trusted-root.md#to-add-a-trusted-root-profile-for-your-clients).
+No matter which certificate type you are deploying, make sure to import your Server Certificate as trusted root as described [here](../trusted-root.md#to-add-a-trusted-root-profile-for-your-clients).
 
 ## Certificate Type
 
