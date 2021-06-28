@@ -153,6 +153,10 @@ _Annual Renewal_
   </tbody>
 </table>
 
+#### Forex
+
+As we operate out of Germany, our reference currency is EUR. The prices offered to you by Microsoft in your non-Euro Azure Marketplace region are subject to Microsoft exchange rates and cannot be influenced by us.
+
 ### Up- and Downgrades
 
 #### Upgrades
