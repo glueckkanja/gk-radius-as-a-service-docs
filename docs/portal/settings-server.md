@@ -39,7 +39,7 @@ The certificate which will be created automatically during set up of your RADIUS
 A custom CA is required if you are planning to authenticate Android devices.
 {% endhint %}
 
-In same cases, you might be required to create your own custom CA. For example, self-signed certificates can cause issues on Android devices \(version &gt; Android 9\) as Android will not allow to install those certificates as trusted CA. 
+In same cases, you might be required to create your own custom CA. For example, Android devices \(version &gt; Android 9\) will not allow to install the auto-generated certificate as trusted CA. 
 
 To create your custom CA, follow these simple steps: 
 
