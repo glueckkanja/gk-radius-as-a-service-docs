@@ -19,9 +19,9 @@ Our licensing model allows you to assign as many devices as you want to an indiv
 * For each additional user, we charge an additional monthly or annual per-user fee, that is due during the next billing cycle \(postpaid\).
 * You will be prompted for your desired \(additional\) user count on our landing page during the subscription enrolment process.
 
-#### Overview
+### Plan Overview
 
-_Monthly Renewal_
+#### Monthly Renewal
 
 <table>
   <thead>
@@ -69,7 +69,7 @@ _Monthly Renewal_
   </tbody>
 </table>
 
-_Annual Renewal_
+#### Annual Renewal
 
 <table>
   <thead>
