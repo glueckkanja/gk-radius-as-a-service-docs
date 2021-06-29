@@ -28,9 +28,6 @@ _Monthly Renewal_
     <tr>
       <th style="text-align:left">Plan</th>
       <th style="text-align:left">Included Users</th>
-      <th style="text-align:left">Renewal Interval</th>
-      <th style="text-align:left">Base Fee (Monthly)</th>
-      <th style="text-align:left">User Fee (Monthly)</th>
     </tr>
   </thead>
   <tbody>
@@ -40,9 +37,6 @@ _Monthly Renewal_
         <p>(Monthly Renewal)</p>
       </td>
       <td style="text-align:left">50</td>
-      <td style="text-align:left">1 month</td>
-      <td style="text-align:left">83.00 EUR</td>
-      <td style="text-align:left">1.65 EUR / User</td>
     </tr>
     <tr>
       <td style="text-align:left">
@@ -50,9 +44,6 @@ _Monthly Renewal_
         <p>(Monthly Renewal)</p>
       </td>
       <td style="text-align:left">250</td>
-      <td style="text-align:left">1 month</td>
-      <td style="text-align:left">413.00 EUR</td>
-      <td style="text-align:left">0.50 EUR / User</td>
     </tr>
     <tr>
       <td style="text-align:left">
@@ -60,9 +51,6 @@ _Monthly Renewal_
         <p>(Monthly Renewal)</p>
       </td>
       <td style="text-align:left">1,000</td>
-      <td style="text-align:left">1 month</td>
-      <td style="text-align:left">784.00 EUR</td>
-      <td style="text-align:left">0.33 EUR / User</td>
     </tr>
     <tr>
       <td style="text-align:left">
@@ -70,9 +58,6 @@ _Monthly Renewal_
         <p>(Monthly Renewal)</p>
       </td>
       <td style="text-align:left">5,000</td>
-      <td style="text-align:left">1 month</td>
-      <td style="text-align:left">2104.00 EUR</td>
-      <td style="text-align:left">0.22 EUR / User</td>
     </tr>
     <tr>
       <td style="text-align:left">
@@ -80,9 +65,6 @@ _Monthly Renewal_
         <p>(Monthly Renewal)</p>
       </td>
       <td style="text-align:left">10,000</td>
-      <td style="text-align:left">1 month</td>
-      <td style="text-align:left">3204.00 EUR</td>
-      <td style="text-align:left">0.17 EUR / User</td>
     </tr>
   </tbody>
 </table>
@@ -94,9 +76,6 @@ _Annual Renewal_
     <tr>
       <th style="text-align:left">Plan</th>
       <th style="text-align:left">Included Users</th>
-      <th style="text-align:left">Renewal Interval</th>
-      <th style="text-align:left">Base Fee (Yearly)</th>
-      <th style="text-align:left">User Fee (Yearly)</th>
     </tr>
   </thead>
   <tbody>
@@ -106,9 +85,6 @@ _Annual Renewal_
         <p>(Annual Renewal)</p>
       </td>
       <td style="text-align:left">50</td>
-      <td style="text-align:left">1 month</td>
-      <td style="text-align:left">900.00 EUR</td>
-      <td style="text-align:left">18.00 EUR</td>
     </tr>
     <tr>
       <td style="text-align:left">
@@ -116,9 +92,6 @@ _Annual Renewal_
         <p>(Annual Renewal)</p>
       </td>
       <td style="text-align:left">250</td>
-      <td style="text-align:left">1 month</td>
-      <td style="text-align:left">4500.00 EUR</td>
-      <td style="text-align:left">5.40 EUR</td>
     </tr>
     <tr>
       <td style="text-align:left">
@@ -126,9 +99,6 @@ _Annual Renewal_
         <p>(Annual Renewal)</p>
       </td>
       <td style="text-align:left">1,000</td>
-      <td style="text-align:left">1 month</td>
-      <td style="text-align:left">8550.00 EUR</td>
-      <td style="text-align:left">3.60 EUR</td>
     </tr>
     <tr>
       <td style="text-align:left">
@@ -136,9 +106,6 @@ _Annual Renewal_
         <p>(Annual Renewal)</p>
       </td>
       <td style="text-align:left">5,000</td>
-      <td style="text-align:left">1 month</td>
-      <td style="text-align:left">22950.00 EUR</td>
-      <td style="text-align:left">2.40 EUR</td>
     </tr>
     <tr>
       <td style="text-align:left">
@@ -146,16 +113,9 @@ _Annual Renewal_
         <p>(Annual Renewal)</p>
       </td>
       <td style="text-align:left">10,000</td>
-      <td style="text-align:left">1 month</td>
-      <td style="text-align:left">34950.00 EUR</td>
-      <td style="text-align:left">1.80 EUR</td>
     </tr>
   </tbody>
 </table>
-
-#### Forex
-
-As we operate out of Germany, our reference currency is EUR. The prices offered to you by Microsoft in your non-Euro Azure Marketplace region are subject to Microsoft exchange rates and cannot be influenced by us.
 
 ### Up- and Downgrades
 
