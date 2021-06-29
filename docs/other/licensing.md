@@ -9,7 +9,7 @@ Our licensing model allows you to assign as many devices as you want to an indiv
 #### Limitations
 
 * The minimum amount of user that can be licensed is 50.
-* It is not possible to distribute the licensed amount of users between different end customers.
+* Our license does not permit to distribute the licensed amount of users between different M365 tenants.
 
 ## Azure Marketplace
 
