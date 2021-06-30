@@ -2,13 +2,11 @@
 
 ## General
 
-#### How we count users
-
-Our licensing model allows you to assign as many devices as you want to an individual user. For us, only the user counts. Typically, the number of users you have to consider corresponds to the number of active users in your Azure AD that have access to devices that may leverage our RADIUSaaS.
+The subscription license for RADIUSaaS is user-based. In this regard _User_ is defined as a person who is assigned to at least one device that is enabled to be authenticated via RADIUSaaS. One single _User_ may be assigned to up to five stationary devices and five mobile devices \(5+5\).
 
 #### Limitations
 
-* The minimum amount of user that can be licensed is 50.
+* The minimum amount of users that can be licensed is 50.
 * Our license does not permit to distribute the licensed amount of users between different M365 tenants.
 
 ## Azure Marketplace
@@ -129,10 +127,15 @@ Our licensing model allows you to assign as many devices as you want to an indiv
 
 #### Downgrades
 
-* Downgrades \(plan/users\) are not feasible during a subscription cycle.
-* If you want to perform a downgrade, please cancel your current subscription from your [Azure SaaS portal](https://portal.azure.com/#blade/HubsExtension/BrowseResourceBlade/resourceType/Microsoft.SaaS%2Fresources) by clicking "Unsubscribe" and re-subscribe with your desired plan.
+* Plan downgrades, i.e. the selection of a new plan with less included users than the currently active plan, are not feasible during a subscription cycle.
+* If you want to perform a downgrade, please cancel your current subscription from your [Azure SaaS portal](https://portal.azure.com/#blade/HubsExtension/BrowseResourceBlade/resourceType/Microsoft.SaaS%2Fresources) towards the end of the current cycle by clicking "Unsubscribe" and re-subscribe to your desired plan once the cancellation becomes effective.
 
-**We will ensure, during both upgrade and downgrades, that your service remains uninterrupted.**
+#### Change of Renewal Cycle
+
+* Changing the renewal cycle by selecting a plan with a renewal cycle different than the currently active one is not feasible during a subscription cycle.
+* If you want to change your renewal cycle, please cancel your current subscription from your Azure SaaS portal towards the end of the current cycle by clicking "Unsubscribe" and re-subscribe to your desired plan once the cancellation becomes effective.
+
+**During upgrades, downgrades, and a change of the renewal cycle we will ensure that your service remains uninterrupted.**
 
 ### **Trials**
 
