@@ -1,9 +1,6 @@
 # Troubleshooting
 
-If you have problems to authenticate correctly, there are some common root causes: 
-
-1. CA is not enabled in your RADIUS settings
-2. Wrong username or password
+## Client View
 
 ### Wrong XML 
 
@@ -22,9 +19,28 @@ Check that you've done the following:
 
 Also check your [Logs](../portal/log.md#logs). There is a detailed description of the error. May it's [this](trubleshooting.md#fatal-decrypt-error) issue.
 
+## RADIUS Server view
+
+### Unknown CA
+
+if you see something like this in your [Logs](../portal/log.md#logs):
+
+```text
+Mon Jul 12 12:38:09 2021 : ERROR: (14872) eap_tls:   ERROR: SSL says error 20 : unable to get local issuer certificate
+Mon Jul 12 12:38:09 2021 : ERROR: (14872) eap_tls: ERROR: TLS Alert write:fatal:unknown CA
+Mon Jul 12 12:38:09 2021 : Error: tls: TLS_accept: Error in error
+Mon Jul 12 12:38:09 2021 : Auth: (14872) Login incorrect (eap_tls: SSL says error 20 : unable to get local issuer certificate): [host/8dc38402-20fb-41db-a8f3-4e4e95637173/<via Auth-Type = eap>] (from client contoso port 1 cli 18-9K-EA-0H-7F-C5)
+```
+
+It can be one of this options: 
+
+1. Your RADIUS server don't know the issuer of the certificate which was used for authentication. Add your CA as described [here](../portal/settings-trusted-roots/trusted-roots.md#add).
+2. Your Client don't know the **Server certificate** and rejects the connection. Check that you've added your **Server certificate** as described [here](../azure/trusted-root.md#adding-a-trusted-root-profile-for-your-clients).
+3. You've changed/added a new **Server certificate** and your XML profile on the client is wrong. Check that you've generated your [XML](../portal/settings-trusted-roots/xml.md#wifi) after adding the certificates and push that to your clients. 
+
 ### Fatal decrypt error
 
-If you can see something like this in your [Logs](../portal/log.md#logs)
+If you can see something like this in your [Logs](../portal/log.md#logs):
 
 ```text
 Wed Apr  7 08:14:39 2021 : Auth: (312) Login incorrect (eap_tls: TLS Alert write:fatal:decrypt error): [host/00128t09-cbna-469c-9768-2783d28eikl9/<via Auth-Type = eap>] (from client cygate-se port 1 cli 84-FD-D1-8C-0E-33)
@@ -32,7 +48,7 @@ Wed Apr  7 08:14:41 2021 : ERROR: (320) eap_tls: ERROR: TLS Alert write:fatal:de
 Wed Apr  7 08:14:41 2021 : Error: tls: TLS_accept: Error in error
 ```
 
-... then it is probably a bug of the TPM software on your Windows machines. More information on that can be found in the [SCEPman documentation](https://docs.scepman.com/certificate-deployment/microsoft-intune/windows-10)
+... then it is probably a bug of the TPM software on your Windows machines. More information on that can be found in the [SCEPman documentation](https://docs.scepman.com/certificate-deployment/microsoft-intune/windows-10).
 
 {% hint style="warning" %}
 The setting Key Storage Provider \(KSP\) determines the storage location of the private key for the end-user certificates. Storage in the TPM is more secure than software storage, because the TPM provides an additional layer of security to prevent key theft. However, there is **a bug in some older TPM firmware versions** that invalidates some signatures created with a TPM-backed private key. In such cases, the certificate cannot be used for EAP authentication as it is common for Wi-Fi and VPN connections. Affected TPM firmware versions include:
