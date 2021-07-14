@@ -36,10 +36,10 @@ The certificate which will be created automatically during set up of your RADIUS
 #### Custom CAs
 
 {% hint style="warning" %}
-A custom CA is required if you are planning to authenticate Android devices.
+A custom CA or your own bought certificate is required if you are planning to authenticate Android devices.
 {% endhint %}
 
-In same cases, you might be required to create your own custom CA. For example, Android devices \(version &gt; Android 9\) will not allow to install the auto-generated certificate as trusted CA. 
+In some cases, you might be required to create your own custom CA. For example, Android devices \(version &gt; Android 9\) will not allow to install a end user certificate as trusted CA. So you need a CA certificate. To achieve this you're able to create your own CA in with your instance.
 
 To create your custom CA, follow these simple steps: 
 
@@ -94,4 +94,20 @@ After this you should see your imported certificate in your table.
 To delete a certificate, expand the corresponding row, click **Delete** and confirm your choice. 
 
 ![](../.gitbook/assets/image%20%2853%29.png)
+
+### Certificate expiration 
+
+Certificates will expire from time to time. Five months before your certificate is going to be expired, you dashboard will give you a hint that your certificate is about to expire.
+
+![](../.gitbook/assets/image%20%2856%29.png)
+
+If you're seeing this triangle, follow this guide how you can change your certificate: 
+
+{% page-ref page="../how-to-use/how-tow/renew-certificate.md" %}
+
+
+
+ 
+
+
 

@@ -33,6 +33,7 @@
   * [Proxy needed](how-to-use/access-point-setup/proxy-needed/README.md)
     * [Unify](how-to-use/access-point-setup/proxy-needed/unify.md)
 * [How To](how-to-use/how-tow/README.md)
+  * [Renew Certificate](how-to-use/how-tow/renew-certificate.md)
   * [Getting Started](how-to-use/how-tow/get-started.md)
   * [Migrating from RADIUSaaS V1 to V2](how-to-use/how-tow/migrate-raas-v1-v2.md)
 
