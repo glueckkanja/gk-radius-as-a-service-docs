@@ -12,7 +12,7 @@ Android Version 10 and higher do not allow to add a user certificates - which yo
 
 The following list and screenshot show you all necessary configurations:
 
-1. Log in to your [Azure portal](https://porta.azure.com/)​
+1. Log in to your [Azure portal](https://portal.azure.com/)​
 2. Navigate to **Microsoft Intune\(Endpoint Manager\)** -&gt; **Devices** -&gt; **Android** -&gt; **Configuration profiles**
 3. Then click **Create Profile**
 4. As **Platform** select **Android Enterprise**
