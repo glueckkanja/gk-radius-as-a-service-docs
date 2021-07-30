@@ -2,9 +2,11 @@
 
 The permissions menu allows you to configure the permissions for the access to the RADIUSaaS admin portal.
 
+{% hint style="success" %}
 RADIUSaaS leverages Azure AD as identity provider for the logon-authentication to the admin portal. It does not store or manage own administrator identities. The authentication is delegated to the corresponding Azure AD tenant of the provided UPN.
 
 Therefore administrators enjoy the comfort of working with their own Azure AD accounts and do not have to setup additional accounts.
+{% endhint %}
 
 ![](../.gitbook/assets/image%20%2857%29.png)
 
