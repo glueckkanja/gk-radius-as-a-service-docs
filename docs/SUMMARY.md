@@ -13,6 +13,7 @@
   * [Intune Certificate](portal/settings-trusted-roots/intune-cert.md)
   * [XML](portal/settings-trusted-roots/xml.md)
 * [Log](portal/log.md)
+* [Permissions](portal/permissions.md)
 
 ## Azure
 
