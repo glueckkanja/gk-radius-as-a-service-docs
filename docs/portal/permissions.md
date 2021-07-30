@@ -9,7 +9,7 @@ Please enter **Azure AD UPNs** here and **separate them with comma and space**.
 Example:
 
 ```text
-john.doe@contoso.com, peter.pan@contoso.com, jane.doe@other-domain.com
+john.doe@contoso.com, peter.pan@contoso.com, jane.doe@other-aad-tenant.com
 ```
 
 The wildcard "\*" is also supported, and may be used to allow all users from a certain domain.
