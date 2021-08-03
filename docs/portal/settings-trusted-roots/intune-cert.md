@@ -10,7 +10,15 @@ description: >-
 ### **This setting is optional. In case you are not familiar with Intune Certificates, please do not configure them!**
 {% endhint %}
 
-### Intune IDs
+## Why we are not recommending to use Intune certificates for authentication purposes?
+
+* Intune certificates are not supported by Microsoft for other purposes than management with Intune.
+* Validity time for the Intune certificates is 1 year.
+* There is no mechanism to revoke certificates \(like OCSP\).
+
+Instead of using Intune certificates, we recommend to use certificates from a PKI like SCEPman.
+
+## Configure Intune IDs
 
 {% hint style="danger" %}
 Use this setting with care. One of the following IDs **must** exist in the certificate extension 1.2.840.113556.5.14. All other certificates will **rejected**.
