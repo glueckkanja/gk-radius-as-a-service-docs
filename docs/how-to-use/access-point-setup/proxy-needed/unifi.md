@@ -1,4 +1,4 @@
-# Unify
+# UniFi
 
 ### RADIUS Profile
 

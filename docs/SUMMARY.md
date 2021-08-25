@@ -32,7 +32,7 @@
   * [RadSec available](how-to-use/access-point-setup/radsec-available/README.md)
     * [MikroTik](how-to-use/access-point-setup/radsec-available/mikrotik.md)
   * [Proxy needed](how-to-use/access-point-setup/proxy-needed/README.md)
-    * [Unify](how-to-use/access-point-setup/proxy-needed/unify.md)
+    * [UniFi](how-to-use/access-point-setup/proxy-needed/unifi.md)
 * [How To](how-to-use/how-tow/README.md)
   * [Renew Certificate](how-to-use/how-tow/renew-certificate.md)
   * [Getting Started](how-to-use/how-tow/get-started.md)
