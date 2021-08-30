@@ -4,15 +4,11 @@ description: Needed for device certificates
 
 # XML
 
-### WiFi
+### WiFi & LAN
 
-To generate your WiFi XML, collapse the **XML** section, enter your **SSID** and click **Download**.
+To generate your XML, collapse the **XML** section, enter your **SSID** and click **Download**.
 
-![](../../.gitbook/assets/image%20%2849%29.png)
+![](../../.gitbook/assets/radius-wifi-lan-policy.gif)
 
-#### Wired
 
-To generate your Wired XML, collapse the **XML** section and click **Download.** 
-
-![](../../.gitbook/assets/image%20%2851%29.png)
 

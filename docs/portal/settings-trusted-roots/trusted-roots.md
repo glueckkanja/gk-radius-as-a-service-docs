@@ -10,9 +10,7 @@ description: >-
 
 To **Add** a trusted root, click **Add** select your format and click **Save.** 
 
-![](../../.gitbook/assets/image%20%2824%29.png)
-
-![](../../.gitbook/assets/image%20%2825%29.png)
+![](../../.gitbook/assets/radius-add-certificates.gif)
 
 #### Delete
 

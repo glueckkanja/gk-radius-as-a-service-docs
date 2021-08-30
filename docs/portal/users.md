@@ -18,7 +18,7 @@ Devices that use **Username** and **Password** for network authentication have t
 
 Click **Add** and provide **User Name** and **Password** and choose your **Validity**. After entering all details, click  **Create**.
 
-![](../.gitbook/assets/image%20%2843%29.png)
+![](../.gitbook/assets/radius-add-users.gif)
 
 ### Delete
 

@@ -16,5 +16,5 @@ To filter the connection attempts from your [Proxy](settings-proxy.md) enter the
 not message : "*auth+acct*"
 ```
 
-![](../.gitbook/assets/image%20%2822%29.png)
+![](../.gitbook/assets/radius-logs.gif)
 
