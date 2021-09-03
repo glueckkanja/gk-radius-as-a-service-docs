@@ -12,14 +12,22 @@ Check that your client has a certificate to authenticate. And you're using the c
 
 ![](../.gitbook/assets/image%20%2831%29.png)
 
-![](../.gitbook/assets/image%20%2860%29.png)
-
 Check that you've done the following: 
 
 * Told your RADIUS Server which certificates are allowed to connect as described [here](../portal/settings-trusted-roots/trusted-roots.md#add)
 * Imported the active RADIUS Server certificate as trusted root on your client as described [here](../azure/trusted-root.md#to-add-a-trusted-root-profile-for-your-clients)
 
 Also check your [Logs](../portal/log.md#logs). There is a detailed description of the error. May it's [this](trubleshooting.md#fatal-decrypt-error) issue.
+
+
+
+If your Clients need to verify on connecting the first time, and you're seeing this dialog:
+
+![](../.gitbook/assets/image%20%2860%29.png)
+
+Make sure that you have referenced the Server certificate in your WiFi Profile:
+
+![](../.gitbook/assets/image%20%2861%29.png)
 
 ## RADIUS Server view
 
