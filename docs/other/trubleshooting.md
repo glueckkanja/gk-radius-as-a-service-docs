@@ -12,6 +12,8 @@ Check that your client has a certificate to authenticate. And you're using the c
 
 ![](../.gitbook/assets/image%20%2831%29.png)
 
+![](../.gitbook/assets/image%20%2860%29.png)
+
 Check that you've done the following: 
 
 * Told your RADIUS Server which certificates are allowed to connect as described [here](../portal/settings-trusted-roots/trusted-roots.md#add)
