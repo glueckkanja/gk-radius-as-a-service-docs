@@ -4,7 +4,7 @@
 
 Please go through the following steps and configurations to create a RADIUS profile:
 
-1. In Unify navigate to **Settings** and select **Profiles**
+1. In UniFi navigate to **Settings** and select **Profiles**
 2. Click **Create a new RADIUS Profile**
 3. Fill the forms with all your information
 
@@ -14,7 +14,7 @@ Please go through the following steps and configurations to create a RADIUS prof
 
 Do the following steps and configurations for SSID:
 
-1. In Unify navigate to **Settings** and select **Wireless Networks**
+1. In UniFi navigate to **Settings** and select **Wireless Networks**
 2. Click **Create new Wireless Network**
 3. Enter a name for **Name/SSID**
 4. For **Security** choose **WPA Enterprise**
